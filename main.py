@@ -1,4 +1,5 @@
-import bardapi as Bard
+
+from bardapi import Bard
 #This comment was added from a the dev branch
 
 
