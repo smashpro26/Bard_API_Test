@@ -19,5 +19,4 @@ class App(customtkinter.CTk):
 def bardGetAnswer():
     prompt = entry.get()
     bard_GetAnswer(prompt)
-    print("Got here")
 
