@@ -1,5 +1,7 @@
 import customtkinter
-import bard
+from bard_AI import bard_GetAnswer
+
+
 customtkinter.set_appearance_mode("dark")
 
 class App(customtkinter.CTk):
@@ -11,9 +13,11 @@ class App(customtkinter.CTk):
         entry = customtkinter.CTkEntry(self, placeholder_text="Enter your prompt")
         entry.pack()
 
-        searchButton = customtkinter.CTkButton(self, text= "Ask Bard...",command= bardGetAnswer())
+        searchButton = customtkinter.CTkButton(self, text= "Ask Bard...",command= bardGetAnswer)
         searchButton.pack()
 
 def bardGetAnswer():
     prompt = entry.get()
-    bard.bardGetAnswer(prompt)
+    bard_GetAnswer(prompt)
+    print("Got here")
+
