@@ -11,4 +11,5 @@ bard = Bard(token=token)
 def bard_GetAnswer(prompt):
     answer = bard.get_answer(prompt)
     print(answer['content'])
+    return answer
     
