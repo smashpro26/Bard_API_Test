@@ -1,4 +1,4 @@
-#!/Users/raguvinayagam/Bard_API_Test/.venv/bin/python3.11
+#!/Users/suvir/Bard_API_Test/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

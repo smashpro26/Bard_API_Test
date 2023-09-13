@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/raguvinayagam/Bard_API_Test/.venv"
+VIRTUAL_ENV="/Users/suvir/Bard_API_Test/.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
